@@ -1,0 +1,114 @@
+/* CSS Media query  */
+/* @media (min-width: 570px) and (max-width:805px) {
+    html {
+        font-size: 1rem;
+    }
+
+    .logo img {
+        width: 20vw;
+        margin-left: 15rem;
+    }
+
+    .title h1 {
+        text-align: center;
+    }
+
+    .button {
+        margin-top: 4rem;
+    }
+
+    .btn {
+        display: block;
+        margin: 1rem;
+        padding: 0.3rem 1rem;
+    }
+
+    ul {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .btn,
+    ul li a {
+        font-size: 1.3rem;
+    }
+
+} */
+@media (min-width: 400px) and (max-width:570px) {
+    html {
+        font-size: 1rem;
+    }
+
+    .logo img {
+        width: 20vw;
+        margin-left: 15rem;
+    }
+
+    .title h1 {
+        text-align: center;
+    }
+
+    .button {
+        margin-top: 4rem;
+    }
+
+    .btn {
+        display: block;
+        margin: 1rem;
+        padding: 0.3rem 1rem;
+    }
+
+    ul {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    ul li a{
+        padding: .3rem 1rem;
+    }
+    .btn,
+    ul li a {
+        font-size: .9rem;
+    }
+
+}
+
+@media (min-width: 200px) and (max-width:400px) {
+    html {
+        font-size: .8rem;
+    }
+
+    .logo img {
+        width: 20vw;
+        margin-top: 0.5rem;
+        margin-left: 12.5rem;
+    }
+
+    .title h1 {
+        text-align: center;
+    }
+
+    .button {
+        margin-top: 3rem;
+    }
+
+    .btn {
+        display: block;
+        margin: 1rem;
+    }
+
+    ul {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .btn,
+    ul li a {
+        font-size: .9rem;
+    }
+}
